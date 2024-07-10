@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* Altura da viewport */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centraliza verticalmente */
+    background-color: #7393B3;
+    /* Cor de fundo opcional para o corpo */
+}
+
+
+main h1 {
+    background-color: #191970;
+    color: #F0FFFF;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 5px 5px 2px #535c64;
+}
+
+#prod {
+    width: 160vh;
+    height: 550px;
+    background-color: #F0FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza conteúdo verticalmente */
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 5px 2px #535c64;
+}
+
+#prod h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container input {
+    padding: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+    max-width: 9em;
+    text-align: center;
+    box-shadow: 5px 5px 2px #bdc6ce;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.container button {
+    padding: 1px;
+    margin-left: 2%;
+    color: #F0FFFF;
+    background-color: #191970;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 15px;
+    width: 10%;
+    height: 100%;
+    box-shadow: 5px 5px 2px #bdc6ce;
+}
+
+.container button:active {
+    background-color: #54548d;
+}
+
+p {
+    margin-left: 2%;
+    color: #191970;
+}
+
+.producao_total {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #123;
+    box-shadow: 5px 5px 2px #bdc6ce;
+}
+
+#producao_final {
+    width: 150px;
+    padding: 3px;
+    font-family: sans-serif;
+}
+
+
+/*----------TABELA-----------------*/
+
+.containertable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+    width: 100px;
+    margin: auto;
+}
+
+.containertable,
+.containertable th,
+.containertable td {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid black;
+    width: 950px;
+}
+
+.containertable th {
+    background-color: #191970;
+    color: #F0FFFF;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.containertable td {
+    border-bottom: 1px solid black;
+    font-size: 12px;
+}
+
+.containertable {
+    flex-wrap: wrap;
+    max-height: 450px;
+    padding: 0;
+    background-color: #F0FFFF;
+    /* Para manter as células na mesma linha */
+}
+
+
+#bordarig,
+#bordarig1 {
+    border-right: none;
+}
+
+#collapsel {
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
