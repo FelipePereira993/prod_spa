@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produção SPA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Produção SPA</h1>
+        <section id="prod">
+            <div class="container">
+                <p>Matricula: </p>
+                <input id="matricula-inpt" type="text" placeholder="ex:00000">
+                <p>Data:</p>
+                <input id="data-inpt" type="date">
+                <button id="btnEnviarDados" onclick="carregarDados()">Enviar</button>
+                <div class="container_producao_total"></div>
+            </div>
+            <div id="collapsel" class="containertable panel-collapse collapse">
+                <table id="tabela-principal" class="table table-striped-columns">
+                    <thead>
+                        <tr>
+                            <th class="header">Nome</th>
+                            <th class="header">Hora</th>
+                            <th class="header">Atividade</th>
+                            <th class="header">Qtd</th>
+                            <th class="header">Atividades diversas</th>
+                            <th class="header">Qtd</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>-</td>
+                            <td>00:00:00</td>
+                            <td>-</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+        </section>
+
+    </main>
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
