@@ -1,6 +1,7 @@
 function carregarDados() {
     // Planilha para banco de dados
-    const url = `https://docs.google.com/spreadsheets/d/e/2PACX-1vTvcHjhWqYullaAD2ukCSIj2ykRwRjrArf3CC0Vzr_ZRxq0LBKqVIzb__wF1BTAgZi2IFjDe2gQwbjp/pub?gid=292500322&single=true&output=csv`;
+    //const url = `https://docs.google.com/spreadsheets/d/e/2PACX-1vTvcHjhWqYullaAD2ukCSIj2ykRwRjrArf3CC0Vzr_ZRxq0LBKqVIzb__wF1BTAgZi2IFjDe2gQwbjp/pub?gid=292500322&single=true&output=csv`;
+    const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSu0Y-RIGdCTEgnPXQpxBYbbleYy7F4X1p2MCc8709FNPQjp9XOekK8U3GuUn7z34nGTSlckkwKL4Re/pub?gid=0&single=true&output=csv'
     const matInpt = document.getElementById('matricula-inpt');
     const conteudoData = document.getElementById('data-inpt');
 
